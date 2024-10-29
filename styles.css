@@ -12,13 +12,14 @@
 
 :root {
   --background-color: #e7e8ed;
-  --seco-background-color: #9a9ca9;
+  --seco-background-color: #d4d4d4;
   --text-color: #0e0e0ee5;
   --para-color: #1d1d1df5;
   --light-color: #333333e3;
   --border-color: #4e4e4e8e;
   --main-color: #037aa2;
   --seco-main-color: #23793c;
+  --box-shadow: #cfcfcf;
 
   --border-50-per: 50%;
   --border-30: 30px;
@@ -44,14 +45,14 @@
   --text-color: #e6e6e6;
   --para-color: #9a9ca9;
   --background-color: #000014;
-  --seco-background-color: #00002e;
+  --seco-background-color: #00001b;
   --light-color: #888888e3;
   --main-color: #037aa2;
   --seco-main-color: #23793c;
+  --box-shadow: #00001d;
 }
 
 ::-webkit-scrollbar {
-  margin-right: 7px;
   width: 5px;
   background: var(--background-color);
 }
@@ -502,7 +503,7 @@ h6 {
 
 .home .right {
   margin-top: 20px;
-  max-width: 510px;
+  max-width: 500px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -706,7 +707,7 @@ h6 .bar-2 {
 }
 
 .activities .box-cont .box {
-  box-shadow: 0 0 20px var(--seco-background-color);
+  box-shadow: 0 0 20px var(--box-shadow);
   border-radius: var(--border-20);
   padding: 10px 15px;
 }
@@ -881,7 +882,8 @@ h6 .bar-2 {
 
 .tesimonials .wallper .box .pro-pic {
   height: 60px;
-  width: 60px;overflow: hidden;
+  width: 60px;
+  overflow: hidden;
   background-color: var(--text-color);
   margin-top: 20px;
   border-radius: var(--border-50-per);
@@ -1298,7 +1300,6 @@ footer {
 .col .contact-details i {
   max-width: 23px;
   margin-left: 10px;
-
 }
 .col .contact-details i img {
   width: 100%;
